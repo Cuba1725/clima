@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+main{
+    height: 100vh;
+    width: 100%;    
+}
+.tarjetas img{
+    width: 250px;
+}
+
+video{
+    width: 250px;
+    height: auto;
+}
+
+@media(max-width: 450px){
+
+    html{
+        height: 100vh;
+    }
+    
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;        
+        background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    }
+
+    .hora{
+        font-family: 'Bebas Neue';
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .tarjeta{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temp{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .centrar{
+        margin: 5px;
+        text-align: center;
+        padding: 10px;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 12px;
+        border: 2px solid rgba(209, 213, 219, 0.3);
+    }
+
+    h1, h2, h5 {
+        text-align: center;
+        font-family: 'Bebas Neue';
+        margin: 0;  
+        padding-bottom: 20px; 
+    }
+
+    .descripcion{
+        text-align: center;
+        font-family: 'Prompt', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    .img{
+        width: 150px;
+        margin: 20px auto;
+        padding-bottom: 20px;
+    }
+
+    .container{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-top: 10px;
+        align-items: center;
+    }
+
+    .sun{        
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        margin: 5px;
+        text-align: center;
+        padding: 10px;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 12px;
+        border: 2px solid rgba(209, 213, 219, 0.3);
+    }
+
+    .sun i {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .sun img {
+        width: 42px;
+    }
+
+    .tempActual{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 70px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ciudad{
+        font-family: 'Prompt', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+    }
+
+    span{
+        font-family: 'Prompt', sans-serif;
+        font-size: 14px;
+    }
+
+}
