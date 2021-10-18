@@ -47,6 +47,7 @@ function fetchClima(geolocationPosition){
     const wind = document.querySelector('.viento');
     const saleSol = document.querySelector('.sunrise')
     const caeSol = document.querySelector('.sunset');
+   
     
     img.setAttribute('src', url);
     img.setAttribute('alt', descripcion);
@@ -79,7 +80,7 @@ function fetchClima(geolocationPosition){
     caeSol.textContent = caeElSol;
     })
 
-}
+
 
 moment.locale('es');
 let horario = document.querySelector('.hora');
@@ -91,9 +92,9 @@ setInterval(() => {
 }, 1000);
 
 let hoy = `${moment().format('dddd')}, ${moment().format('LL')} `
+const dia = document.querySelector('.dia');
+dia.textContent = hoy;
 
-console.log(hoy);
-
-
+}
 
 

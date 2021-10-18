@@ -15,31 +15,27 @@ video{
 }
 
 @media(max-width: 450px){
-
-    html{
-        height: 100vh;
-    }
     
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 100%;        
-        background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-    }
 
     .hora{
         font-family: 'Bebas Neue';
         font-size: 1.5rem;
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin: 10px 0;
+    }
+
+    .dia {
+        text-align: center;
+        margin-bottom: 15px;
     }
 
     .tarjeta{
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        width: 100%;        
+        background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
     }
 
     .temp{
